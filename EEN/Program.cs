@@ -15,8 +15,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-app.Urls.Add("http://192.168.100.10:8080");
-app.Urls.Add("http://localhost:8080");
+//app.Urls.Add("http://192.168.100.10:8080");
+//app.Urls.Add("http://localhost:8080");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
